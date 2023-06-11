@@ -1,0 +1,197 @@
+.container-fluid{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0;
+}
+.navbar{
+  width: 100%;
+  background-color: grey ;
+  border-radius: 0;
+  border: 2.5px solid black;
+  height:15%;
+  padding-bottom: 0px;
+}
+.navbar-brand { 
+  position:relative;
+  color:black;
+  font-size: 2em;
+  font-weight:regular;
+  margin-top:3px ;
+  margin-left:15px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+}
+.navbar-toggler{
+  border: 2px solid black;
+  margin-right: 15px;
+  margin-bottom: auto;
+}
+.nav-item{
+  text-align: center;
+  border-top: 2px solid black;
+  background-color: white;
+}
+
+.box{
+    position: relative;
+    background-color: gray;
+    margin: 10px;
+}
+.title {
+    color: black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+  }
+
+  .description {
+    padding: 0px 0px 10px 0px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px 10px 10px 10px;
+  }
+  #main-content{
+    padding:0 20px 0 20px ;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description .top-link{
+    color: #00004d;
+    text-align: right;
+  }
+  .end{
+    font-weight: bold;
+  }
+  /*****************************************/
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ #main-content {
+   max-width: none ;
+ }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #main-content {
+    max-width: none ;
+  }
+
+}
+
+/********** Small devices only **********/
+@media (max-width: 991px) {
+  #header-nav {
+    height:100px;
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #main-content {
+    max-width: none ;
+  }
+}
+/*
+.box{
+    position: relative;
+    background-color: gray;
+    border: 3.5px solid black;
+    margin-left:  10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+  #title_1 {
+    float: right;
+    width: 150px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #FFB6C1;
+  }
+  #title_2 {
+    float: right;
+    width: 150px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #C14543;
+  }
+  #title_3 {
+    float: right;
+    width: 150px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #E5D198;
+  }
+  .description {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 40px 0px 0px 5px;
+    height: 180px;
+  }
+
+
+  /********** Large devices only **********
+@media (min-width: 992px) {.col-lg-4
+    {
+      float: left;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+  }
+  
+  /********** Medium devices only **********
+  @media (min-width: 768px) and (max-width: 991px) {.col-md-6, .col-md-12 
+    {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .col-md-12 {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+   /********** Small Devices Only**********
+   @media (max-width: 767px) {.col-sd-12 
+    {
+      float: left;  
+    }
+    .col-sd-12 {
+      width: 100%;
+    }
+  }
+  */
